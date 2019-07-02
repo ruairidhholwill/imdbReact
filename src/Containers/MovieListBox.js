@@ -38,6 +38,7 @@ class MovieListBox extends Component {
             <Fragment>
                 <h2>Upcoming Film Releases in UK</h2>
                 <MovieList movies={this.state.movies} />
+                <h3><a href="https://www.imdb.com/calendar/?region=gb">View More Upcoming Releases!</a></h3>
             </Fragment>
         )
     }
