@@ -1,10 +1,11 @@
 import React, { Component, Fragment } from 'react'
+import MovieList from '../Components/MovieList'
 
 class MovieListBox extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            movies =[
+            movies: [
                 {
                     id: 1,
                     name: "Spider-Man: Into the Spider-Verse",
